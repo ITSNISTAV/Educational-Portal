@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <iframe id="iframe" width="560" height="315" 
+  src="" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen>
+</iframe>
+
+    <iframe src="" frameborder="0"></iframe>
+    <script>
+        fetch("processed_data.json")
+            .then(response => response.json())  // call the json() function
+            .then(data => {
+                const iframe = document.getElementById("iframe");
+
+        // take first video URL
+        const url = data[0].playlist[0].video_url;
+
+        // extract video ID (after "v=")
+        const videoId = url.split("v=")[1];
+
+        // create embed URL
+        const embedUrl = `https://www.youtube.com/embed/${videoId}`;
+
+        // set iframe src
+        iframe.setAttribute("src", embedUrl);
+
+        console.log(data[0].playlist);
+            })
+            .catch(error => console.error("Something went bad with JSON:", error));
+
+            
+    </script>
+</body>
+
+</html>

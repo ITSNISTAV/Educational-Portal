@@ -1,0 +1,1002 @@
+[
+  {
+    "S.No": 1,
+    "Course Name": "Designing Learner-centric MOOCs",
+    "playlist": "https://www.youtube.com/playlist?list=PLOzRYVm0a65cD-CUzXp9HUz3wrodUeJZW",
+    "NPTEL course ID": 127101010,
+    "SME Name": "Prof.Sridhar Iyer, Prof.Sahana Murthy, Dr.Jayakrishnan M,Dr.Sameer Sahasrabudhe",
+    "Offering Institute": "IIT Bombay",
+    "First Offered": "Jan - April 2019",
+    "# Offerings": 8
+  },
+  {
+    "S.No": 2,
+    "Course Name": "Introduction to Machine Learning (Tamil)",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M-9thAeyB2mRFYvvW8AWxXX",
+    "NPTEL course ID": 106106236,
+    "SME Name": "Prof. Arun Rajkumar",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2022",
+    "# Offerings": 7
+  },
+  {
+    "S.No": 3,
+    "Course Name": "Python for Data Science",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M_fFg1zZmeGIkenMDgXKGYi",
+    "NPTEL course ID": 106106212,
+    "SME Name": "Prof. Raghunathan Rengasamy",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2019",
+    "# Offerings": 12
+  },
+  {
+    "S.No": 4,
+    "Course Name": "Design Thinking - A Primer",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M9hJRhUZCgYhSWlxKgiOXa1",
+    "NPTEL course ID": 110106124,
+    "SME Name": "Prof. Ashwin Mahalingam,Prof. Bala Ramadurai",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2019",
+    "# Offerings": 14
+  },
+  {
+    "S.No": 5,
+    "Course Name": "Nanotechnology, Science and Applications",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M8682dGkNTN8936vSY4CbqZ",
+    "NPTEL course ID": 113106093,
+    "SME Name": "Prof.Prathap Haridoss",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2019",
+    "# Offerings": 4
+  },
+  {
+    "S.No": 6,
+    "Course Name": "Introduction to Learning Analytics",
+    "playlist": "https://www.youtube.com/playlist?list=PLOzRYVm0a65eRkszboBPqWskxZ-llwicZ",
+    "NPTEL course ID": 127101012,
+    "SME Name": "Prof. Ramkumar Rajendran",
+    "Offering Institute": "IIT Bombay",
+    "First Offered": "Jul - Oct 2019",
+    "# Offerings": 1
+  },
+  {
+    "S.No": 7,
+    "Course Name": "The Victorian Gothic Short Story",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M-gu8zzSrit1mC2Q0RxpyVP",
+    "NPTEL course ID": 109106163,
+    "SME Name": "Prof.Divya A",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2019",
+    "# Offerings": 1
+  },
+  {
+    "S.No": 8,
+    "Course Name": "Introduction to Civil Engineering Profession",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M_SM0Lrnzk2dJFwElh0Ebhu",
+    "NPTEL course ID": 105106201,
+    "SME Name": "Prof. Ravindra Gettu, Prof. Subhadeep Banerjee",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2020",
+    "# Offerings": 6
+  },
+  {
+    "S.No": 9,
+    "Course Name": "Surrogates and Approximations in Engineering Design",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M_SdldkvC2Mrb22exZyXZf3",
+    "NPTEL course ID": 112106250,
+    "SME Name": "Prof. Palaniappaan Ramu",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2018",
+    "# Offerings": 1
+  },
+  {
+    "S.No": 10,
+    "Course Name": "Welding of Advanced High Strength Steels for Automotive Applications",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M8K0AnDTMJmzgp1fTPvVqRx",
+    "NPTEL course ID": 113106082,
+    "SME Name": "Prof. Murugaiyan Amirthalingam",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2018",
+    "# Offerings": 6
+  },
+  {
+    "S.No": 11,
+    "Course Name": "Introduction to probability and Statistics",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M_JcleDbrVyPnE0PixKs2JE",
+    "NPTEL course ID": 111106112,
+    "SME Name": "Prof. G. Srinivasan",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2018",
+    "# Offerings": 7
+  },
+  {
+    "S.No": 12,
+    "Course Name": "Decision making using financial accounting",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M_wiD95KSnROpV6EhhBJp0m",
+    "NPTEL course ID": 110106135,
+    "SME Name": "Prof.G Arun Kumar",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2019",
+    "# Offerings": 1
+  },
+  {
+    "S.No": 13,
+    "Course Name": "Advanced Topics in Science and Technology of Concrete - Recycled concrete  Aggregates",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M-rGhxQmtKOMmUSqam5VuYQ",
+    "NPTEL course ID": 105106351,
+    "SME Name": "Prof. Manu Santhanam, Prof. Ravindra Gettu",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2024",
+    "# Offerings": 2
+  },
+  {
+    "S.No": 14,
+    "Course Name": "Introduction to Developmental Biology",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M-rfUc9aLLKpklbfOUOktuP",
+    "NPTEL course ID": 102106084,
+    "SME Name": "Prof. Subramaniam K",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2020",
+    "# Offerings": 5
+  },
+  {
+    "S.No": 15,
+    "Course Name": "Advanced Topics in the Science and Technology of Concrete",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M_9jZOoWauJ87jBPPzwXo-6",
+    "NPTEL course ID": 105106187,
+    "SME Name": "Prof.Ravindra Gettu, Prof.Manu Santhanam",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2019",
+    "# Offerings": 3
+  },
+  {
+    "S.No": 16,
+    "Course Name": "Plant Cell Bioprocessing",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M9DE2RR4pIHDaf_7A4m3RWY",
+    "NPTEL course ID": 102106080,
+    "SME Name": "Prof. Smita Srivastava",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2019",
+    "# Offerings": 6
+  },
+  {
+    "S.No": 17,
+    "Course Name": "Design of Mechanical Transmission Systems",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M-7nTyaGekZRTLLUzGfRPMo",
+    "NPTEL course ID": 112106424,
+    "SME Name": "Prof. Ramkumar",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2024",
+    "# Offerings": 2
+  },
+  {
+    "S.No": 18,
+    "Course Name": "Maintenance and Repair of Concrete Structures",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M-RzEaQE2CPniqnKDyOSkZY",
+    "NPTEL course ID": 105106202,
+    "SME Name": "Prof. Radhakrishna G. Pillai",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2020",
+    "# Offerings": 6
+  },
+  {
+    "S.No": 19,
+    "Course Name": "Rocket Propulsion",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M8G4TdzgmXkjvs4AZnlTVaH",
+    "NPTEL course ID": 101106082,
+    "SME Name": "Prof. K. Ramamurthi , Prof. S. Varunkumar",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2020",
+    "# Offerings": 5
+  },
+  {
+    "S.No": 20,
+    "Course Name": "Introduction to Modern Application Development",
+    "playlist": "https://www.youtube.com/playlist?list=PLJ6vobRc0TSKE5mPMO48NSxioq9AR2yYL",
+    "NPTEL course ID": 106106156,
+    "SME Name": "Prof. Gaurav Raina,Tanmai Gopal",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2016",
+    "# Offerings": 4
+  },
+  {
+    "S.No": 21,
+    "Course Name": "Design of Masonry Structures",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M-81uKP3sjj0lZX_nnrOwpV",
+    "NPTEL course ID": 105106197,
+    "SME Name": "Prof.Arun Menon",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2019",
+    "# Offerings": 2
+  },
+  {
+    "S.No": 22,
+    "Course Name": "Functional and Conceptual Design",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M88PUx4AtV1WWNeKYVIvPAl",
+    "NPTEL course ID": 107106089,
+    "SME Name": "Prof. Asokan T",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2020",
+    "# Offerings": 4
+  },
+  {
+    "S.No": 23,
+    "Course Name": "Introduction to Operating Systems",
+    "playlist": "https://www.youtube.com/playlist?list=PLW52DIxemsiuICBC8oWcqCC3gk_8wAaWc",
+    "NPTEL course ID": 106106144,
+    "SME Name": "Prof. Chester Rebeiro",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2016",
+    "# Offerings": 8
+  },
+  {
+    "S.No": 24,
+    "Course Name": "Tissue Engineering",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M-Is9Ac-dLQqMf7Chp07OY7",
+    "NPTEL course ID": 102106081,
+    "SME Name": "Prof. Vignesh Muthuvijayan",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2019",
+    "# Offerings": 6
+  },
+  {
+    "S.No": 25,
+    "Course Name": "Computational Fluid Dynamics using Finite Volume Method",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M_xbAkneOW2fNDFPWUQLAEz",
+    "NPTEL course ID": 112106294,
+    "SME Name": "Prof. Kameswararao Anupindi",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2020",
+    "# Offerings": 5
+  },
+  {
+    "S.No": 26,
+    "Course Name": "Design for Quality, Manufacturing and Assembly",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M_1kARI-8O0ZJjTwD9bAsRe",
+    "NPTEL course ID": 112106249,
+    "SME Name": "Prof. Palaniappaan Ramu",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2018",
+    "# Offerings": 2
+  },
+  {
+    "S.No": 27,
+    "Course Name": "Introduction to Database Systems",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M-xymXgqewlzcC3U4cdRoSu",
+    "NPTEL course ID": 106106220,
+    "SME Name": "Prof. Sreenivasa Kumar",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2020",
+    "# Offerings": 6
+  },
+  {
+    "S.No": 28,
+    "Course Name": "Basics of Language Science",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M_O8VwHbQCv5p0W_BMZSbtk",
+    "NPTEL course ID": 109106182,
+    "SME Name": "Prof. Rajesh Kumar",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2021",
+    "# Offerings": 5
+  },
+  {
+    "S.No": 29,
+    "Course Name": "Introduction to Robotics",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M_XM9cvjLLO_Azt1FkgPhpH",
+    "NPTEL course ID": 107106090,
+    "SME Name": "Prof. Asokan T,Prof. Balaraman Ravindran,Prof. Krishna Vasudevan",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2020",
+    "# Offerings": 4
+  },
+  {
+    "S.No": 30,
+    "Course Name": "Advanced Concrete Technology",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M_k_G-Lwpb4UUxYUQ-garG1",
+    "NPTEL course ID": 105106176,
+    "SME Name": "Prof. Manu Santhanam",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2018",
+    "# Offerings": 4
+  },
+  {
+    "S.No": 31,
+    "Course Name": "Optical Engineering",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M9KuQnanecDqCiJUCnCgSQf",
+    "NPTEL course ID": 108106161,
+    "SME Name": "Prof. Shanti Bhattacharya",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2020",
+    "# Offerings": 4
+  },
+  {
+    "S.No": 32,
+    "Course Name": "Sports Psychology",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M-eJnO4QjgcoilSpOqNdGZG",
+    "NPTEL course ID": 109106403,
+    "SME Name": "Prof. Chaitanya Sridhar, Prof. Nivedita Rajan ,Prof. Priyanka Prabhakar",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2024",
+    "# Offerings": 2
+  },
+  {
+    "S.No": 33,
+    "Course Name": "Ecology and Environment",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M_vO7rLpxKZWqai4uJP2bDa",
+    "NPTEL course ID": 127106004,
+    "SME Name": "Dr.Abhijit Deshpande,Dr.Ligy Philip,Dr.B.S.Murty,Dr.Sudhir Chella Rajan,Dr. Sreenivas Jayanti,Dr. Jayashree Vencatesan,Dr. R. Ravi Krishna",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2018",
+    "# Offerings": 6
+  },
+  {
+    "S.No": 34,
+    "Course Name": "Indian Fiction in English",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M_xDU8pJVfqM-Ep8Xq7Ov07",
+    "NPTEL course ID": 109106135,
+    "SME Name": "Prof. Merin Simi Raj",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2018",
+    "# Offerings": 3
+  },
+  {
+    "S.No": 35,
+    "Course Name": "Linear System Theory",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M9i09h6qh5boOfQgDnV5QV1",
+    "NPTEL course ID": 108106150,
+    "SME Name": "Prof.Ramkrishna Pasumarthy",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2019",
+    "# Offerings": 5
+  },
+  {
+    "S.No": 36,
+    "Course Name": "Literature and Life",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M_Cq6SRbLOVYlQg1PRp6Oz7",
+    "NPTEL course ID": 109106189,
+    "SME Name": "Prof. S P Dhanavel",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2022",
+    "# Offerings": 4
+  },
+  {
+    "S.No": 37,
+    "Course Name": "Principles Of Economics",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M_CfnHfWa5CkNn4PUa_2Rj0",
+    "NPTEL course ID": 130106118,
+    "SME Name": "Prof. Sabuj Kumar Mandal",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2023",
+    "# Offerings": 1
+  },
+  {
+    "S.No": 38,
+    "Course Name": "Transform Techniques for Engineers",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M-UL8NI6woJ_jI20OmtmwZa",
+    "NPTEL course ID": 111106111,
+    "SME Name": "Prof. Manam",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2018",
+    "# Offerings": 2
+  },
+  {
+    "S.No": 39,
+    "Course Name": "Colloids and Surfaces",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M_8npuynqUMMudY9K_hKqTp",
+    "NPTEL course ID": 105106204,
+    "SME Name": "Prof. Basavaraj Madivala Gurappa",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2020",
+    "# Offerings": 5
+  },
+  {
+    "S.No": 40,
+    "Course Name": "Data Science for Engineers",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M-Rf2y3MT5aZ1UpTF1UQBK0",
+    "NPTEL course ID": 106106179,
+    "SME Name": "Prof. Ragunathan Rengasamy,\nProf. Shankar Narasimhan",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2018",
+    "# Offerings": 14
+  },
+  {
+    "S.No": 41,
+    "Course Name": "Introduction to World Literature",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M9pkQ9AT8F3bJOLerNEAKcF",
+    "NPTEL course ID": 109106147,
+    "SME Name": "Prof. Merin Simi Raj",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2019",
+    "# Offerings": 7
+  },
+  {
+    "S.No": 42,
+    "Course Name": "Mechanics of Human Movement",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M_eAE2KVfdRdoIH6AIxABeN",
+    "NPTEL course ID": 112106248,
+    "SME Name": "Prof. Sujatha Srinivasan",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2018",
+    "# Offerings": 2
+  },
+  {
+    "S.No": 43,
+    "Course Name": "Basic Construction Materials",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M_RfjEQMK7_L-UvxAMhplUT",
+    "NPTEL course ID": 105106206,
+    "SME Name": "Prof. Manu Santhanam,\nProf. Radhakrishna G. Pillai",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2021",
+    "# Offerings": 5
+  },
+  {
+    "S.No": 44,
+    "Course Name": "Feminist Writings",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M8hQrr8v4frM_-Z2mAekvkF",
+    "NPTEL course ID": 109106146,
+    "SME Name": "Dr Avishek Parui",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2019",
+    "# Offerings": 6
+  },
+  {
+    "S.No": 45,
+    "Course Name": "Introduction to Biomedical Imaging Systems",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M9wr5IpP7WZxP9trrHht3N5",
+    "NPTEL course ID": 102105090,
+    "SME Name": "Prof. Arun K. Thittai",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2021",
+    "# Offerings": 4
+  },
+  {
+    "S.No": 46,
+    "Course Name": "Literary Criticism (From Plato to Leavis)",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M-B9N5rT2ava_4opC8Qfka2",
+    "NPTEL course ID": 109106171,
+    "SME Name": "Prof. Merin Simi Raj",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2020",
+    "# Offerings": 5
+  },
+  {
+    "S.No": 47,
+    "Course Name": "Short Fiction in Indian Literature",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M_7yxJUNor9JSRCm_5j5xiP",
+    "NPTEL course ID": 109106138,
+    "SME Name": "Prof. Divya.A",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2018",
+    "# Offerings": 7
+  },
+  {
+    "S.No": 48,
+    "Course Name": "Foundations of Accounting & Finance",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M8St2IrMox_srEJv8n-N55A",
+    "NPTEL course ID": 110106368,
+    "SME Name": "Prof. Arun Kumar Gopalaswamy",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2024",
+    "# Offerings": 2
+  },
+  {
+    "S.No": 49,
+    "Course Name": "Electrochemical impedance Spectroscopy",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M9ftJKyUWBilfrgBjh_6eh1",
+    "NPTEL course ID": 104106105,
+    "SME Name": "S. Ramanathan",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2019",
+    "# Offerings": 3
+  },
+  {
+    "S.No": 50,
+    "Course Name": "Project Planning & Control",
+    "playlist": "https://www.youtube.com/playlist?list=PLK7ISGC4aoxbYqe067C51HvaEvd2aWQgI",
+    "NPTEL course ID": 105106149,
+    "SME Name": "Prof. Koshy Varghese",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2016",
+    "# Offerings": 9
+  },
+  {
+    "S.No": 51,
+    "Course Name": "Information Security - 5 - Secure Systems Engineering",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M-q0Xgn0icEHvUS7WQxvenv",
+    "NPTEL course ID": 106106199,
+    "SME Name": "Chester Rebeiro",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2019",
+    "# Offerings": 7
+  },
+  {
+    "S.No": 52,
+    "Course Name": "The Nineteenth-Century English Novel",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M-Uy6bfM2Rz70d6hbs54k0T",
+    "NPTEL course ID": 109106145,
+    "SME Name": "Prof. Divya.A",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2019",
+    "# Offerings": 7
+  },
+  {
+    "S.No": 53,
+    "Course Name": "Introduction to cultural studies",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M9vZHZ2ZS5Z763NFtm2sPVz",
+    "NPTEL course ID": 109106136,
+    "SME Name": "Prof. Avishek",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2018",
+    "# Offerings": 7
+  },
+  {
+    "S.No": 54,
+    "Course Name": "Twentieth Century American Drama",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M-3Rik9o74ydRc1y8kwCIfJ",
+    "NPTEL course ID": 109106187,
+    "SME Name": "Prof. Merin Simi Raj",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2021",
+    "# Offerings": 1
+  },
+  {
+    "S.No": 55,
+    "Course Name": "Welding Processes",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M-KwjFQByBvRx464XpCgOEC",
+    "NPTEL course ID": 113106087,
+    "SME Name": "Dr. Murugaiyan Amirthalingam",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2019",
+    "# Offerings": 7
+  },
+  {
+    "S.No": 56,
+    "Course Name": "Inverse Methods in Heat Transfer",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M_tYw86wI1VO8kL-SUcpzTU",
+    "NPTEL course ID": 112106316,
+    "SME Name": "Prof. Balaji Srinivasan",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2023",
+    "# Offerings": 1
+  },
+  {
+    "S.No": 57,
+    "Course Name": "Classical Sociological Theory",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M_teA9zPY83-6_Kz6kQvGis",
+    "NPTEL course ID": 109106180,
+    "SME Name": "Prof. R. Santhosh",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2020",
+    "# Offerings": 5
+  },
+  {
+    "S.No": 58,
+    "Course Name": "Globalization: Theoretical Perspectives",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M8vM5OZ4nyO0o3PbqpMB_zg",
+    "NPTEL course ID": 109106183,
+    "SME Name": "Prof. R. Santhosh",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2021",
+    "# Offerings": 5
+  },
+  {
+    "S.No": 59,
+    "Course Name": "Indian Society: Sociological Perspectives",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M8c15W33WGhCKqpP5DhnD5E",
+    "NPTEL course ID": 109106204,
+    "SME Name": "Prof. R. Santhosh",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2023",
+    "# Offerings": 2
+  },
+  {
+    "S.No": 60,
+    "Course Name": "Environmental Quality Monitoring & Analysis",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M_2XsRlRiBKZ6chp1a9H8eI",
+    "NPTEL course ID": 103106162,
+    "SME Name": "Prof. Ravi Krishna R",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2020",
+    "# Offerings": 6
+  },
+  {
+    "S.No": 61,
+    "Course Name": "Quantum Algorithms and Cryptography",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M8Pp2Z8kOAVyoSbw1UOPWQY",
+    "NPTEL course ID": 106106241,
+    "SME Name": "Prof. Shweta Agrawal",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2023",
+    "# Offerings": 2
+  },
+  {
+    "S.No": 62,
+    "Course Name": "Strategy and Technology: A Practical Primer",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M_PMeayMTRdDoqKtMJIoBYy",
+    "NPTEL course ID": 110106157,
+    "SME Name": "Prof. C Bhaktavatsala Rao",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2022",
+    "# Offerings": 3
+  },
+  {
+    "S.No": 63,
+    "Course Name": "Twentieth Century Fiction",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M83DQ5qXaMQtZuwv6DJLEIW",
+    "NPTEL course ID": 109106172,
+    "SME Name": "Prof. Avishek Parui",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2020",
+    "# Offerings": 6
+  },
+  {
+    "S.No": 64,
+    "Course Name": "Aluminium based Alloys and Metal Matrix Composites",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M95Qm34uc_8kKYl8aBFG8SL",
+    "NPTEL course ID": 113106105,
+    "SME Name": "Prof. Ranjit Bauri",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2022",
+    "# Offerings": 3
+  },
+  {
+    "S.No": 65,
+    "Course Name": "Leadership for India Inc: Practical concepts and Constructs",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M9SGWHjQtvt-ago5zbuemb3",
+    "NPTEL course ID": 110106151,
+    "SME Name": "Prof. C Bhaktavatsala Rao",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2021",
+    "# Offerings": 5
+  },
+  {
+    "S.No": 66,
+    "Course Name": "The Popular Gothic Novel",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M8YGzRmnuHXLPLQPBpMO62l",
+    "NPTEL course ID": 109106177,
+    "SME Name": "Prof. Divya A",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2020",
+    "# Offerings": 5
+  },
+  {
+    "S.No": 67,
+    "Course Name": "Constitution Law and Public Administration in India",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M-Zj2GBVpJ3c7cfvMTcKrPL",
+    "NPTEL course ID": 129106411,
+    "SME Name": "Prof. Sairam Bhat",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2024",
+    "# Offerings": 2
+  },
+  {
+    "S.No": 68,
+    "Course Name": "Introduction to Econometrics",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M-YZKVfuVSYqZnMfyDNLtkw",
+    "NPTEL course ID": 130106001,
+    "SME Name": "Prof. Sabuj Kumar Mandal",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2021",
+    "# Offerings": 5
+  },
+  {
+    "S.No": 69,
+    "Course Name": "Basics of Materials Engineering",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M_ON8uXt-PP8uX6hMWJeYSJ",
+    "NPTEL course ID": 112106293,
+    "SME Name": "Prof. Ratna Kumar Annabattula",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2020",
+    "# Offerings": 4
+  },
+  {
+    "S.No": 70,
+    "Course Name": "Characterization of Construction Materials",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M_SPzoDiGiemXR3DjZnDDPw",
+    "NPTEL course ID": 105106200,
+    "SME Name": "Prof. Manu Santhanam,Prof. Piyush Chaunsali",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2020",
+    "# Offerings": 2
+  },
+  {
+    "S.No": 71,
+    "Course Name": "Artificial Lift",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M_NIlJPgRM64nmkyg9_csen",
+    "NPTEL course ID": 103106220,
+    "SME Name": "Prof. Abdus Samad",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2023",
+    "# Offerings": 2
+  },
+  {
+    "S.No": 72,
+    "Course Name": "Multirate DSP",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M_h5UgZWpybzBVDGmHGhQQb",
+    "NPTEL course ID": 108106136,
+    "SME Name": "Prof.R. David Koilpillai",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2019",
+    "# Offerings": 7
+  },
+  {
+    "S.No": 73,
+    "Course Name": "Fluid and Particle Mechanics",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M-OznIof4z0w6TYA--gc-x8",
+    "NPTEL course ID": 103106158,
+    "SME Name": "Prof.Madivala G. Basavaraj,\nProf.Sumesh P Thampi",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2019",
+    "# Offerings": 6
+  },
+  {
+    "S.No": 74,
+    "Course Name": "Material and Energy Balances",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M-QFqMp7_FJ_NuGCXDuHqvf",
+    "NPTEL course ID": 102106069,
+    "SME Name": "Prof.Vignesh Muthuvijayan",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2018",
+    "# Offerings": 7
+  },
+  {
+    "S.No": 75,
+    "Course Name": "Entrepreneurship",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M8EGZbmNUuUM7Vh2GkdbB1R",
+    "NPTEL course ID": 110106141,
+    "SME Name": "Prof. C Bhaktavatsala Rao",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2020",
+    "# Offerings": 5
+  },
+  {
+    "S.No": 76,
+    "Course Name": "Fundamentals of Automotive Systems",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M9G2SNxKfsVEjcM9MlJau4F",
+    "NPTEL course ID": 107106088,
+    "SME Name": "Prof. C. S. Shankar Ram",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2020",
+    "# Offerings": 6
+  },
+  {
+    "S.No": 77,
+    "Course Name": "Intellectual Property",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M8PuzP1p2hNPXgpbOBhFgja",
+    "NPTEL course ID": 109106137,
+    "SME Name": "Prof. Feroz Ali",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2018",
+    "# Offerings": 7
+  },
+  {
+    "S.No": 78,
+    "Course Name": "Poetry",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M-3RhICGK61jwzey3MRp5xt",
+    "NPTEL course ID": 109106176,
+    "SME Name": "Prof. S P Dhanavel",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2020",
+    "# Offerings": 5
+  },
+  {
+    "S.No": 79,
+    "Course Name": "Surface Facilities for Oil and Gas Handling",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M_0fk-_V4VlAwghNyLJ6HvW",
+    "NPTEL course ID": 114106443,
+    "SME Name": "Prof. Abdus Samad",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2024",
+    "# Offerings": 2
+  },
+  {
+    "S.No": 80,
+    "Course Name": "Admixtures and Special Concretes",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M82k6diJ8LXu58vSMAiM-WP",
+    "NPTEL course ID": 105106225,
+    "SME Name": "Prof. Manu Santhanam",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2023",
+    "# Offerings": 1
+  },
+  {
+    "S.No": 81,
+    "Course Name": "Introduction to Film Studies",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M8Kc98tUrpYAeDPR8rqSkrf",
+    "NPTEL course ID": 109106079,
+    "SME Name": "Prof. Aysha Iqbal",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2019",
+    "# Offerings": 2
+  },
+  {
+    "S.No": 82,
+    "Course Name": "Neuroscience of Human Movement",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M_o7BK7elYgzofH324WetjQ",
+    "NPTEL course ID": 127106001,
+    "SME Name": "Prof. Varadhan",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2018",
+    "# Offerings": 7
+  },
+  {
+    "S.No": 83,
+    "Course Name": "Biomechanics",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M8TqKV8muUMgpkJ8GDdcq1a",
+    "NPTEL course ID": 102106098,
+    "SME Name": "Prof. Varadhan",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2023",
+    "# Offerings": 3
+  },
+  {
+    "S.No": 84,
+    "Course Name": "Polymers: concepts, properties, uses and sustainability",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M_KQ5MqUkoOqAxxOrdvFOMB",
+    "NPTEL course ID": 105106205,
+    "SME Name": "Prof. Abhijit P Deshpande",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2020",
+    "# Offerings": 5
+  },
+  {
+    "S.No": 85,
+    "Course Name": "Modern computer vision",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M8X3Veh5ijSQ2UGFFEZIpKf",
+    "NPTEL course ID": 108106189,
+    "SME Name": "Prof. A. N. Rajagopalan",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2023",
+    "# Offerings": 3
+  },
+  {
+    "S.No": 86,
+    "Course Name": "Designing Learner-centric eContent for STEM Disciplines",
+    "playlist": "https://www.youtube.com/playlist?list=PLOzRYVm0a65du0KAxcv8R7wzAUBzqB8zp",
+    "NPTEL course ID": 127101013,
+    "SME Name": "Prof. Sahana Murthy",
+    "Offering Institute": "IIT Bombay",
+    "First Offered": "Jul - Oct 2019",
+    "# Offerings": 4
+  },
+  {
+    "S.No": 87,
+    "Course Name": "Jan 2024 - Business Forecasting",
+    "playlist": "https://www.youtube.com/playlist?list=PLOzRYVm0a65diLBYrP7EpXv7FZFM0Zf3z",
+    "NPTEL course ID": 110101438,
+    "SME Name": "Prof. Pankaj Dutta",
+    "Offering Institute": "IIT Bombay",
+    "First Offered": "Jan - April 2024",
+    "# Offerings": 2
+  },
+  {
+    "S.No": 88,
+    "Course Name": "Business Fundamentals For Entrepreneurs (Part 1: Internal Operation)",
+    "playlist": "https://www.youtube.com/playlist?list=PLOzRYVm0a65fnUjrixHsDhYRaJj1K_xqB",
+    "NPTEL course ID": 110101167,
+    "SME Name": "Prof. Devdip Purkayastha",
+    "Offering Institute": "IIT Bombay",
+    "First Offered": "Jul - Oct 2023",
+    "# Offerings": 2
+  },
+  {
+    "S.No": 89,
+    "Course Name": "July 2019 : Game Theory",
+    "playlist": "https://www.youtube.com/playlist?list=PLOzRYVm0a65fY-Vh8Caiv3wAYmDd7SnrN",
+    "NPTEL course ID": 110101133,
+    "SME Name": "Prof.K.S. Mallikarjuna Rao",
+    "Offering Institute": "IIT Bombay",
+    "First Offered": "Jul - Oct 2019",
+    "# Offerings": 4
+  },
+  {
+    "S.No": 90,
+    "Course Name": "July 2019 : Financial Accounting",
+    "playlist": "https://www.youtube.com/playlist?list=PLOzRYVm0a65d4DQntP-1Rl-PAOITrQXLX",
+    "NPTEL course ID": 110101131,
+    "SME Name": "Prof. Varadraj Bapat",
+    "Offering Institute": "IIT Bombay",
+    "First Offered": "Jul - Oct 2019",
+    "# Offerings": 6
+  },
+  {
+    "S.No": 91,
+    "Course Name": "Demystifying Networking",
+    "playlist": "https://www.youtube.com/playlist?list=PLOzRYVm0a65c99bTo_la39WMeX1RjwCvk",
+    "NPTEL course ID": 106101209,
+    "SME Name": "Prof. Sridhar Iyer",
+    "Offering Institute": "IIT Bombay",
+    "First Offered": "Jul - Oct 2019",
+    "# Offerings": 6
+  },
+  {
+    "S.No": 92,
+    "Course Name": "Computational Systems Biology",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M88xI8FIcKarSBN2yPqMKbd",
+    "NPTEL course ID": 102106068,
+    "SME Name": "Prof. Karthik Raman",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2018",
+    "# Offerings": 7
+  },
+  {
+    "S.No": 93,
+    "Course Name": "Machine Learning for Engineering and Science Applications",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M-SISTunGRBRiZk7opYBf_K",
+    "NPTEL course ID": 106106198,
+    "SME Name": "Prof.Balaji Srinivasan,\nProf. Ganapathy Krishnamurthi",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2019",
+    "# Offerings": 4
+  },
+  {
+    "S.No": 94,
+    "Course Name": "Power Management Integrated Circuits",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M9UpgVUKY3QKnVVlcqFrMM1",
+    "NPTEL course ID": 108106159,
+    "SME Name": "Prof. Qadeer Ahmad Khan",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2020",
+    "# Offerings": 6
+  },
+  {
+    "S.No": 95,
+    "Course Name": "Continuum Mechanics and Transport Phenomena",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M_h3Yg9cNOIgN5PNSqnTbrq",
+    "NPTEL course ID": 103106159,
+    "SME Name": "Prof.T. Renganathan",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2019",
+    "# Offerings": 1
+  },
+  {
+    "S.No": 96,
+    "Course Name": "Environmental & Resource Economics",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M-_Vyv-zgxUXMlgKGjxXYuG",
+    "NPTEL course ID": 130106113,
+    "SME Name": "Prof. Sabuj Kumar Mandal",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jul - Oct 2021",
+    "# Offerings": 4
+  },
+  {
+    "S.No": 97,
+    "Course Name": "Foundations of Computational Materials Modelling",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M9Mu0bFYvQtXEjN0DhCNJDC",
+    "NPTEL course ID": 112106289,
+    "SME Name": "Prof. Narasimhan Swaminathan",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2020",
+    "# Offerings": 2
+  },
+  {
+    "S.No": 98,
+    "Course Name": "Thermodynamics for Biological Systems : Classical and Statistical Aspect",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M8ReVx6ac5JQVHpJKvCU2R4",
+    "NPTEL course ID": 102106082,
+    "SME Name": "Prof. Suraishkumar G K,Prof. Sanjib Senapati",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2020",
+    "# Offerings": 6
+  },
+  {
+    "S.No": 99,
+    "Course Name": "Introduction to System Dynamics Modeling",
+    "playlist": "https://www.youtube.com/playlist?list=PLOzRYVm0a65fFQDTWYF4hzo6be81blfHo",
+    "NPTEL course ID": 110101142,
+    "SME Name": "Prof. Jayendran Venkateswaran",
+    "Offering Institute": "IIT Bombay",
+    "First Offered": "Jan - April 2020",
+    "# Offerings": 5
+  },
+  {
+    "S.No": 100,
+    "Course Name": "Strategic Sourcing",
+    "playlist": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M9ehZLlIw_R66dS4np2BJSW",
+    "NPTEL course ID": 110106435,
+    "SME Name": "Prof. Arshinder Kaur",
+    "Offering Institute": "IIT Madras",
+    "First Offered": "Jan - April 2024",
+    "# Offerings": 2
+  }
+]

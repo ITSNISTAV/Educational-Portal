@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Courses - Educational Portal</title>
+  <script src="https://cdn.jsdelivr.net/npm/react@18.2.0/umd/react.production.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/react-dom@18.2.0/umd/react-dom.production.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/babel-standalone@7.22.9/babel.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      --deep-teal: #0a3a36;
+      --teal: #0f4a44;
+      --teal-600: #0c3f3a;
+      --off-white: #ffffff;
+      --muted-bg: #f7f8f8;
+      --accent-yellow: #f5a524;
+      --accent-orange: #f3aa2f;
+      --text-dark: #0b0f12;
+      --text-muted: #707c86;
+      --card-border: #e7ebee;
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="text/babel">
+    const coursesData = [
+      {
+        "Course Name": "Designing Learner-centric MOOCs",
+        "playlist": [
+          {
+            "video_title": "Introduction to the Course",
+            "video_url": "https://www.youtube.com/watch?v=VIDEO_ID_1",
+            "video_description": "Welcome to Designing Learner-Centric MOOCs, IIT Bombay course! ..."
+          },
+          {
+            "video_title": "Overview of LCM Model",
+            "video_url": "https://www.youtube.com/watch?v=VIDEO_ID_2",
+            "video_description": "This video provides a brief overview of the content to be covered in the course and introduces audience to the LCM model. ..."
+          }
+        ],
+        "Offering Institute": "IIT Bombay"
+      },
+      {
+        "Course Name": "Introduction to Machine Learning (Tamil)",
+        "playlist": [
+          {
+            "video_title": "Course Introduction",
+            "video_url": "https://www.youtube.com/watch?v=VIDEO_ID_3",
+            "video_description": "Welcome to 'Introduction to Machine Learning (Tamil)' course! ..."
+          }
+        ],
+        "Offering Institute": "IIT Madras"
+      }
+    ];
+
+    const CourseCard = ({ course }) => {
+      return (
+        <div className="bg-[--off-white] border border-[--card-border] rounded-lg p-6 hover:shadow-lg transition-shadow duration-300">
+          <h2 className="text-xl font-semibold text-[--text-dark] mb-2">{course["Course Name"]}</h2>
+          <p className="text-[--text-muted] mb-4">Offered by {course["Offering Institute"]}</p>
+          <div className="space-y-2">
+            {course.playlist.slice(0, 2).map((video, index) => (
+              <div key={index} className="border-l-4 border-[--accent-yellow] pl-3">
+                <a
+                  href={video.video_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[--teal] hover:text-[--accent-orange] font-medium"
+                >
+                  {video.video_title}
+                </a>
+                <p className="text-sm text-[--text-muted] line-clamp-2">{video.video_description}</p>
+              </div>
+            ))}
+          </div>
+          <a
+            href="#"
+            className="mt-4 inline-block bg-[--teal] text-[--off-white] px-4 py-2 rounded hover:bg-[--teal-600] transition-colors"
+          >
+            Explore Course
+          </a>
+        </div>
+      );
+    };
+
+    const CoursesPage = () => {
+      return (
+        <div className="min-h-screen bg-[--muted-bg] py-12">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h1 className="text-3xl font-bold text-[--text-dark] mb-8 text-center">Our Courses</h1>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {coursesData.map((course, index) => (
+                <CourseCard key={index} course={course} />
+              ))}
+            </div>
+          </div>
+        </div>
+      );
+    };
+
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(<CoursesPage />);
+  </script>
+</body>
+</html>
