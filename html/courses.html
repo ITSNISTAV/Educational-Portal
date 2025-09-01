@@ -1,31 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Courses - Educational Portal</title>
-  <script src="https://cdn.jsdelivr.net/npm/react@18.2.0/umd/react.production.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/react-dom@18.2.0/umd/react-dom.production.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/babel-standalone@7.22.9/babel.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/react@18.2.0/umd/react.development.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/react-dom@18.2.0/umd/react-dom.development.js"></script>
   <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    :root {
-      --deep-teal: #0a3a36;
-      --teal: #0f4a44;
-      --teal-600: #0c3f3a;
-      --off-white: #ffffff;
-      --muted-bg: #f7f8f8;
-      --accent-yellow: #f5a524;
-      --accent-orange: #f3aa2f;
-      --text-dark: #0b0f12;
-      --text-muted: #707c86;
-      --card-border: #e7ebee;
-    }
-  </style>
 </head>
 <body>
   <div id="root"></div>
-  <script type="text/babel">
+  <script>
     const coursesData = [
       {
         "Course Name": "Designing Learner-centric MOOCs",
@@ -56,53 +41,52 @@
       }
     ];
 
-    const CourseCard = ({ course }) => {
-      return (
-        <div className="bg-[--off-white] border border-[--card-border] rounded-lg p-6 hover:shadow-lg transition-shadow duration-300">
-          <h2 className="text-xl font-semibold text-[--text-dark] mb-2">{course["Course Name"]}</h2>
-          <p className="text-[--text-muted] mb-4">Offered by {course["Offering Institute"]}</p>
-          <div className="space-y-2">
-            {course.playlist.slice(0, 2).map((video, index) => (
-              <div key={index} className="border-l-4 border-[--accent-yellow] pl-3">
-                <a
-                  href={video.video_url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[--teal] hover:text-[--accent-orange] font-medium"
-                >
-                  {video.video_title}
-                </a>
-                <p className="text-sm text-[--text-muted] line-clamp-2">{video.video_description}</p>
-              </div>
-            ))}
-          </div>
-          <a
-            href="#"
-            className="mt-4 inline-block bg-[--teal] text-[--off-white] px-4 py-2 rounded hover:bg-[--teal-600] transition-colors"
-          >
-            Explore Course
-          </a>
-        </div>
+    function CourseCard(props) {
+      const course = props.course;
+      return React.createElement(
+        'div',
+        { className: "bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300" },
+        [
+          React.createElement('h2', { className: "text-xl font-semibold text-gray-900 mb-2", key: 'title' }, course["Course Name"]),
+          React.createElement('p', { className: "text-gray-500 mb-4", key: 'inst' }, `Offered by ${course["Offering Institute"]}`),
+          React.createElement(
+            'div',
+            { className: "space-y-2", key: 'videos' },
+            course.playlist.slice(0,2).map((video, index) =>
+              React.createElement('div', { className: "border-l-4 border-yellow-500 pl-3", key: index }, [
+                React.createElement('a', { href: video.video_url, target: "_blank", rel: "noopener noreferrer", className: "text-teal-700 hover:text-orange-500 font-medium block", key: 'link' }, video.video_title),
+                React.createElement('p', { className: "text-sm text-gray-500", key: 'desc' }, video.video_description)
+              ])
+            )
+          ),
+          React.createElement('a', { href: "#", className: "mt-4 inline-block bg-teal-700 text-white px-4 py-2 rounded hover:bg-teal-800 transition-colors", key: 'btn' }, 'Explore Course')
+        ]
       );
-    };
+    }
 
-    const CoursesPage = () => {
-      return (
-        <div className="min-h-screen bg-[--muted-bg] py-12">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h1 className="text-3xl font-bold text-[--text-dark] mb-8 text-center">Our Courses</h1>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {coursesData.map((course, index) => (
-                <CourseCard key={index} course={course} />
-              ))}
-            </div>
-          </div>
-        </div>
+    function CoursesPage() {
+      return React.createElement(
+        'div',
+        { className: "min-h-screen bg-gray-100 py-12" },
+        React.createElement(
+          'div',
+          { className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" },
+          [
+            React.createElement('h1', { className: "text-3xl font-bold text-gray-900 mb-8 text-center", key: 'heading' }, "Our Courses"),
+            React.createElement(
+              'div',
+              { className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6", key: 'grid' },
+              coursesData.map((course, index) =>
+                React.createElement(CourseCard, { course, key: index })
+              )
+            )
+          ]
+        )
       );
-    };
+    }
 
     const root = ReactDOM.createRoot(document.getElementById('root'));
-    root.render(<CoursesPage />);
+    root.render(React.createElement(CoursesPage));
   </script>
 </body>
 </html>
