@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" data-page="modules">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Learno — Course Modules</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/modules.css">
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__left">
+        <span class="icon-text"><svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><path d="M6.6 10.8c1.7 3.3 3.9 5.5 7.2 7.2l2.4-2.4c.3-.3.8-.4 1.2-.3 1 .3 2 .5 3 .5.7 0 1.2.6 1.2 1.2V21c0 .7-.5 1.2-1.2 1.2C9.9 22.2 1.8 14.1 1.8 3.6 1.8 3 2.3 2.4 3 2.4h3.9c.7 0 1.2.5 1.2 1.2 0 1 .2 2 .5 3 .1.4 0 .9-.3 1.2L6.6 10.8z" fill="currentColor"/></svg> Phone: +44 0207 669 7888</span>
+        <span class="dot"></span>
+        <span class="icon-text"><svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><path d="M2 6.5C2 5.7 2.7 5 3.5 5h17c.8 0 1.5.7 1.5 1.5v11c0 .8-.7 1.5-1.5 1.5h-17C2.7 19 2 18.3 2 17.5v-11zm2 .5v.3l7 4.7c.6.4 1.4.4 2 0l7-4.7V7H4z" fill="currentColor"/></svg> Email: info@company.co.uk</span>
+        <span class="dot"></span>
+        <span class="icon-text"><svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm.8 5h-1.6v6l5 3 .8-1.3-4.2-2.5V7z" fill="currentColor"/></svg> Mon - Sat 8:00 - 18:00</span>
+      </div>
+      <div class="topbar__right">
+        <a href="#" aria-label="Facebook" class="social"><svg viewBox="0 0 24 24" class="ico"><path d="M13 22v-9h3l.5-3H13V8.1c0-.9.3-1.5 1.6-1.5H17V4.1C16.6 4 15.5 4 14.2 4 11.7 4 10 5.5 10 8v2H7v3h3v9h3z" fill="currentColor"/></svg></a>
+        <a href="#" aria-label="Twitter" class="social"><svg viewBox="0 0 24 24" class="ico"><path d="M22 5.8c-.7.3-1.5.6-2.3.6.8-.5 1.3-1.2 1.6-2.1-.7.4-1.6.8-2.5.9A3.7 3.7 0 0011 7.8c0 .3 0 .6.1.9-3.1-.1-5.9-1.7-7.7-4.1-.3.5-.5 1.2-.5 1.8 0 1.3.7 2.5 1.7 3.2-.6 0-1.1-.2-1.6-.4 0 1.8 1.3 3.3 3 3.7-.3.1-.7.2-1 .2-.2 0-.5 0-.7-.1.5 1.6 2 2.7 3.8 2.8A7.5 7.5 0 012 18.6 10.6 10.6 0 007.7 20c6.6 0 10.3-5.6 10.3-10.4v-.5c.7-.5 1.3-1.1 1.8-1.8z" fill="currentColor"/></svg></a>
+        <a href="#" aria-label="Instagram" class="social"><svg viewBox="0 0 24 24" class="ico"><path d="M7 2h10a5 5 0 015 5v10a5 5 0 01-5 5H7a5 5 0 01-5-5V7a5 5 0 015-5zm5 5a5 5 0 100 10 5 5 0 000-10zm6.5-.9a1.1 1.1 0 100 2.2 1.1 1.1 0 000-2.2zM12 9a3 3 0 110 6 3 3 0 010-6z" fill="currentColor"/></svg></a>
+      </div>
+    </div>
+  </div>
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="courses.html" class="logo"><span class="logo__mark">🎓</span><span class="logo__text">Learno</span></a>
+      <button class="nav__toggle" aria-label="Toggle Menu"><span></span><span></span><span></span></button>
+      <nav class="nav__menu" aria-label="Main Navigation">
+        <a href="index.html">Home</a>
+        <a href="#">About</a>
+        <a href="courses.html">Courses</a>
+        <a href="#">Pages</a>
+        <a href="#">News</a>
+        <a href="#">Contact</a>
+      </nav>
+      <div class="nav__actions">
+        <button class="icon-btn" aria-label="Cart"><svg viewBox="0 0 24 24" class="ico"><path d="M7 6h14l-2 9H8L6.5 4H3V2h4l.5 4zM8 20a2 2 0 110 4 2 2 0 010-4zm10 0a2 2 0 110 4 2 2 0 010-4z" fill="currentColor"/></svg></button>
+        <a class="btn btn-accent" href="#">Apply Now</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero hero--small">
+    <div class="container hero__inner">
+      <div class="hero__copy">
+        <p class="eyebrow"><a href="courses.html" class="crumb">Home</a> / <span class="crumb">Courses</span> / <span id="crumb-course">Course</span></p>
+        <h1 id="course-title" class="hero__title">Course Name</h1>
+        <p id="course-subtitle" class="hero__subtitle">Offering Institute: —</p>
+      </div>
+      <div class="hero__art">
+        <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/COURSES.jpg-vOUxon2bIley6jTOlkUBJZ5mJzgsBL.jpeg" alt="Learning banner" />
+        <div class="shape shape--circle"></div>
+        <div class="shape shape--dot"></div>
+      </div>
+    </div>
+  </section>
+
+  <main class="container section">
+    <div class="module-container">
+      <aside class="module-sidebar">
+        <div class="module-sidebar-header">
+          <h3 class="module-sidebar-title">Course Modules</h3>
+          <button class="close-btn" aria-label="Close sidebar">✕</button>
+        </div>
+        <div id="playlist" class="playlist-list"></div>
+      </aside>
+
+      <div class="module-main">
+        <div class="video-preview" id="video-preview">
+                  </div>
+        <div class="video-info">
+          <h2 class="video-title">
+            1.1 Course & Introduction to Trademark Overview
+          </h2>
+          <button class="save-note-btn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="currentColor"/>
+            </svg>
+            Save note
+          </button>
+        </div>
+
+        <div class="video-coach-box">
+          <h3 class="coach-title">coach</h3>
+          <p>Let me know if you have any questions about this material. I'm here to help!</p>
+          <div class="coach-actions">
+            <button class="btn coach-btn">Give me practice questions</button>
+            <button class="btn coach-btn">Explain this topic in simple terms</button>
+            <button class="btn coach-btn">Give me a summary</button>
+          </div>
+        </div>
+        <button class="btn go-next-btn">Go to next item</button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer compact">
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>Learno — Modules</p>
+        <div class="footer__social">
+          <a href="#" aria-label="Facebook" class="social"><svg viewBox="0 0 24 24" class="ico"><path d="M13 22v-9h3l.5-3H13V8.1c0-.9.3-1.5 1.6-1.5H17V4.1C16.6 4 15.5 4 14.2 4 11.7 4 10 5.5 10 8v2H7v3h3v9h3z" fill="currentColor"/></svg></a>
+          <a href="#" aria-label="Twitter" class="social"><svg viewBox="0 0 24 24" class="ico"><path d="M22 5.8c-.7.3-1.5.6-2.3.6.8-.5 1.3-1.2 1.6-2.1-.7.4-1.6.8-2.5.9A3.7 3.7 0 0011 7.8c0 .3 0 .6.1.9-3.1-.1-5.9-1.7-7.7-4.1-.3.5-.5 1.2-.5 1.8 0 1.3.7 2.5 1.7 3.2-.6 0-1.1-.2-1.6-.4 0 1.8 1.3 3.3 3 3.7-.3.1-.7.2-1 .2-.2 0-.5 0-.7-.1.5 1.6 2 2.7 3.8 2.8A7.5 7.5 0 012 18.6 10.6 10.6 0 007.7 20c6.6 0 10.3-5.6 10.3-10.4v-.5c.7-.5 1.3-1.1 1.8-1.8z" fill="currentColor"/></svg></a>
+          <a href="#" aria-label="Instagram" class="social"><svg viewBox="0 0 24 24" class="ico"><path d="M7 2h10a5 5 0 015 5v10a5 5 0 01-5 5H7a5 5 0 01-5-5V7a5 5 0 015-5zm5 5a5 5 0 100 10 5 5 0 000-10zm6.5-.9a1.1 1.1 0 100 2.2 1.1 1.1 0 000-2.2zM12 9a3 3 0 110 6 3 3 0 010-6z" fill="currentColor"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+
+
+  </script>
+</body>
+</html>

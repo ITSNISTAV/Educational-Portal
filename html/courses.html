@@ -1,108 +1,179 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-page="courses">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Courses - Educational Portal</title>
-  <script src="https://cdn.jsdelivr.net/npm/react@18.2.0/umd/react.production.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/react-dom@18.2.0/umd/react-dom.production.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/babel-standalone@7.22.9/babel.min.js"></script>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    :root {
-      --deep-teal: #0a3a36;
-      --teal: #0f4a44;
-      --teal-600: #0c3f3a;
-      --off-white: #ffffff;
-      --muted-bg: #f7f8f8;
-      --accent-yellow: #f5a524;
-      --accent-orange: #f3aa2f;
-      --text-dark: #0b0f12;
-      --text-muted: #707c86;
-      --card-border: #e7ebee;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Learno — Our Courses</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   Inter is a clean sans-serif similar to the design 
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/courses.css">
+  <!-- <link rel="stylesheet" href="style.css" /> -->
+   <style>
+    /* Root and Reset */
+
+
+   </style>
 </head>
 <body>
-  <div id="root"></div>
-  <script type="text/babel">
-    const coursesData = [
-      {
-        "Course Name": "Designing Learner-centric MOOCs",
-        "playlist": [
-          {
-            "video_title": "Introduction to the Course",
-            "video_url": "https://www.youtube.com/watch?v=VIDEO_ID_1",
-            "video_description": "Welcome to Designing Learner-Centric MOOCs, IIT Bombay course! ..."
-          },
-          {
-            "video_title": "Overview of LCM Model",
-            "video_url": "https://www.youtube.com/watch?v=VIDEO_ID_2",
-            "video_description": "This video provides a brief overview of the content to be covered in the course and introduces audience to the LCM model. ..."
-          }
-        ],
-        "Offering Institute": "IIT Bombay"
-      },
-      {
-        "Course Name": "Introduction to Machine Learning (Tamil)",
-        "playlist": [
-          {
-            "video_title": "Course Introduction",
-            "video_url": "https://www.youtube.com/watch?v=VIDEO_ID_3",
-            "video_description": "Welcome to 'Introduction to Machine Learning (Tamil)' course! ..."
-          }
-        ],
-        "Offering Institute": "IIT Madras"
-      }
-    ];
+   Header Top Bar 
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__left">
+        <span class="icon-text">
+           phone 
+          <svg viewBox="0 0 24 24" aria-hidden="true" class="ico"><path d="M6.6 10.8c1.7 3.3 3.9 5.5 7.2 7.2l2.4-2.4c.3-.3.8-.4 1.2-.3 1 .3 2 .5 3 .5.7 0 1.2.6 1.2 1.2V21c0 .7-.5 1.2-1.2 1.2C9.9 22.2 1.8 14.1 1.8 3.6 1.8 3 2.3 2.4 3 2.4h3.9c.7 0 1.2.5 1.2 1.2 0 1 .2 2 .5 3 .1.4 0 .9-.3 1.2L6.6 10.8z" fill="currentColor"/></svg>
+          Phone: +44 0207 669 7888
+        </span>
+        <span class="dot"></span>
+        <span class="icon-text">
+           email 
+          <svg viewBox="0 0 24 24" aria-hidden="true" class="ico"><path d="M2 6.5C2 5.7 2.7 5 3.5 5h17c.8 0 1.5.7 1.5 1.5v11c0 .8-.7 1.5-1.5 1.5h-17C2.7 19 2 18.3 2 17.5v-11zm2 .5v.3l7 4.7c.6.4 1.4.4 2 0l7-4.7V7H4z" fill="currentColor"/></svg>
+          Email: info@company.co.uk
+        </span>
+        <span class="dot"></span>
+        <span class="icon-text">
+           clock 
+          <svg viewBox="0 0 24 24" aria-hidden="true" class="ico"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm.8 5h-1.6v6l5 3 .8-1.3-4.2-2.5V7z" fill="currentColor"/></svg>
+          Mon - Sat 8:00 - 18:00
+        </span>
+      </div>
+      <div class="topbar__right">
+         simple social icons 
+        <a href="#" aria-label="Facebook" class="social"><svg viewBox="0 0 24 24" class="ico"><path d="M13 22v-9h3l.5-3H13V8.1c0-.9.3-1.5 1.6-1.5H17V4.1C16.6 4 15.5 4 14.2 4 11.7 4 10 5.5 10 8v2H7v3h3v9h3z" fill="currentColor"/></svg></a>
+        <a href="#" aria-label="Twitter" class="social"><svg viewBox="0 0 24 24" class="ico"><path d="M22 5.8c-.7.3-1.5.6-2.3.6.8-.5 1.3-1.2 1.6-2.1-.7.4-1.6.8-2.5.9A3.7 3.7 0 0011 7.8c0 .3 0 .6.1.9-3.1-.1-5.9-1.7-7.7-4.1-.3.5-.5 1.2-.5 1.8 0 1.3.7 2.5 1.7 3.2-.6 0-1.1-.2-1.6-.4 0 1.8 1.3 3.3 3 3.7-.3.1-.7.2-1 .2-.2 0-.5 0-.7-.1.5 1.6 2 2.7 3.8 2.8A7.5 7.5 0 012 18.6 10.6 10.6 0 007.7 20c6.6 0 10.3-5.6 10.3-10.4v-.5c.7-.5 1.3-1.1 1.8-1.8z" fill="currentColor"/></svg></a>
+        <a href="#" aria-label="Instagram" class="social"><svg viewBox="0 0 24 24" class="ico"><path d="M7 2h10a5 5 0 015 5v10a5 5 0 01-5 5H7a5 5 0 01-5-5V7a5 5 0 015-5zm5 5a5 5 0 100 10 5 5 0 000-10zm6.5-.9a1.1 1.1 0 100 2.2 1.1 1.1 0 000-2.2zM12 9a3 3 0 110 6 3 3 0 010-6z" fill="currentColor"/></svg></a>
+      </div>
+    </div>
+  </div>
 
-    const CourseCard = ({ course }) => {
-      return (
-        <div className="bg-[--off-white] border border-[--card-border] rounded-lg p-6 hover:shadow-lg transition-shadow duration-300">
-          <h2 className="text-xl font-semibold text-[--text-dark] mb-2">{course["Course Name"]}</h2>
-          <p className="text-[--text-muted] mb-4">Offered by {course["Offering Institute"]}</p>
-          <div className="space-y-2">
-            {course.playlist.slice(0, 2).map((video, index) => (
-              <div key={index} className="border-l-4 border-[--accent-yellow] pl-3">
-                <a
-                  href={video.video_url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[--teal] hover:text-[--accent-orange] font-medium"
-                >
-                  {video.video_title}
-                </a>
-                <p className="text-sm text-[--text-muted] line-clamp-2">{video.video_description}</p>
-              </div>
-            ))}
-          </div>
-          <a
-            href="#"
-            className="mt-4 inline-block bg-[--teal] text-[--off-white] px-4 py-2 rounded hover:bg-[--teal-600] transition-colors"
-          >
-            Explore Course
+   Navbar 
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="courses.html" class="logo">
+        <span class="logo__mark">🎓</span>
+        <span class="logo__text">Learno</span>
+      </a>
+      <button class="nav__toggle" aria-label="Toggle Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav__menu" aria-label="Main Navigation">
+        <a href="#" class="active">Home</a>
+        <a href="#">About</a>
+        <a href="courses.html">Courses</a>
+        <a href="#">Pages</a>
+        <a href="#">News</a>
+        <a href="#">Contact</a>
+      </nav>
+      <div class="nav__actions">
+        <button class="icon-btn" aria-label="Cart">
+          <svg viewBox="0 0 24 24" class="ico"><path d="M7 6h14l-2 9H8L6.5 4H3V2h4l.5 4zM8 20a2 2 0 110 4 2 2 0 010-4zm10 0a2 2 0 110 4 2 2 0 010-4z" fill="currentColor"/></svg>
+        </button>
+        <a class="btn btn-accent" href="#">Apply Now</a>
+      </div>
+    </div>
+  </header>
+
+   Hero 
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__copy">
+        <p class="eyebrow">Home / Our Courses</p>
+        <h1 class="hero__title">Our Courses</h1>
+        <p class="hero__subtitle">Get free access to 6800+ different courses from 680 professional teachers</p>
+      </div>
+      <div class="hero__art">
+         Using the provided Source URL as requested 
+        <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/COURSES.jpg-vOUxon2bIley6jTOlkUBJZ5mJzgsBL.jpeg" alt="Student learning online" />
+        <div class="shape shape--circle"></div>
+        <div class="shape shape--dot"></div>
+      </div>
+    </div>
+  </section>
+
+   Courses Grid 
+  <main class="container section">
+    <div id="courses-grid" class="grid"></div>
+
+     Pagination 
+    <div id="pagination" class="pagination" aria-label="Courses Pagination"></div>
+  </main>
+
+   Footer 
+  <footer class="site-footer">
+    <div class="container footer__top">
+      <div class="footer__cta">
+        <div>
+          <p class="eyebrow" style="color:var(--muted-2)">Download App and learn courses</p>
+          <h2 class="footer__title">Ready to Start your Online Course?</h2>
+        </div>
+        <div class="store-buttons">
+          <a href="#" class="store store--google" aria-label="Get it on Google Play">
+            <svg viewBox="0 0 512 512" class="store-ico"><path d="M325 234L93 30c-8-6-18-8-27-6l232 231 27-21zM53 39c-2 4-3 9-3 13v408c0 5 1 9 3 13l206-206L53 39zm415 210l-75-57-42 33 42 33 75-57zM66 494c9 2 19 0 27-6l232-203-27-22L66 494z" fill="#fff"/></svg>
+            <span>
+              <em>GET IT ON</em>
+              <strong>Google Play</strong>
+            </span>
+          </a>
+          <a href="#" class="store store--apple" aria-label="Download on the App Store">
+            <svg viewBox="0 0 512 512" class="store-ico"><path d="M349 136c-23 0-54-16-72-16-18 0-46 15-69 15-30 0-58-17-82-17C72 118 32 174 32 240c0 46 18 95 40 125 19 26 44 55 76 55 22 0 28-14 65-14 38 0 42 14 64 14 31 0 54-27 73-53 14-19 20-29 30-52-80-30-93-150  -1-179-18-23-44-40-73-40z" fill="#fff"/></svg>
+            <span>
+              <em>Download on the</em>
+              <strong>App Store</strong>
+            </span>
           </a>
         </div>
-      );
-    };
+      </div>
 
-    const CoursesPage = () => {
-      return (
-        <div className="min-h-screen bg-[--muted-bg] py-12">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h1 className="text-3xl font-bold text-[--text-dark] mb-8 text-center">Our Courses</h1>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {coursesData.map((course, index) => (
-                <CourseCard key={index} course={course} />
-              ))}
-            </div>
-          </div>
+      <div class="footer__cols">
+        <div class="footer__col">
+          <h3 class="footer__heading">Contact Info</h3>
+          <ul class="list">
+            <li>Bird House, 15-17 St Cross St 123, United State EC1N 8UW</li>
+            <li>+44 (0) 20 7420 2973</li>
+            <li>username@maildomain.com</li>
+          </ul>
         </div>
-      );
-    };
+        <div class="footer__col">
+          <h3 class="footer__heading">Quick Links</h3>
+          <ul class="list list--grid">
+            <li><a href="#">Become A Teacher</a></li>
+            <li><a href="#">All Courses</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Checkout</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Student Profile</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Terms of Services</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h3 class="footer__heading">Subscribe Newsletter</h3>
+          <p class="muted">Get updates on new courses and news.</p>
+          <form class="newsletter" onsubmit="event.preventDefault(); alert('Subscribed!');">
+            <input type="email" required placeholder="Email Address." aria-label="Email Address" />
+            <button class="btn btn-accent" type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>Learno — Copyright 2025. Design inspired by provided mockup.</p>
+        <div class="footer__social">
+          <a href="#" aria-label="Facebook" class="social"><svg viewBox="0 0 24 24" class="ico"><path d="M13 22v-9h3l.5-3H13V8.1c0-.9.3-1.5 1.6-1.5H17V4.1C16.6 4 15.5 4 14.2 4 11.7 4 10 5.5 10 8v2H7v3h3v9h3z" fill="currentColor"/></svg></a>
+          <a href="#" aria-label="Twitter" class="social"><svg viewBox="0 0 24 24" class="ico"><path d="M22 5.8c-.7.3-1.5.6-2.3.6.8-.5 1.3-1.2 1.6-2.1-.7.4-1.6.8-2.5.9A3.7 3.7 0 0011 7.8c0 .3 0 .6.1.9-3.1-.1-5.9-1.7-7.7-4.1-.3.5-.5 1.2-.5 1.8 0 1.3.7 2.5 1.7 3.2-.6 0-1.1-.2-1.6-.4 0 1.8 1.3 3.3 3 3.7-.3.1-.7.2-1 .2-.2 0-.5 0-.7-.1.5 1.6 2 2.7 3.8 2.8A7.5 7.5 0 012 18.6 10.6 10.6 0 007.7 20c6.6 0 10.3-5.6 10.3-10.4v-.5c.7-.5 1.3-1.1 1.8-1.8z" fill="currentColor"/></svg></a>
+          <a href="#" aria-label="Instagram" class="social"><svg viewBox="0 0 24 24" class="ico"><path d="M7 2h10a5 5 0 015 5v10a5 5 0 01-5 5H7a5 5 0 01-5-5V7a5 5 0 015-5zm5 5a5 5 0 100 10 5 5 0 000-10zm6.5-.9a1.1 1.1 0 100 2.2 1.1 1.1 0 000-2.2zM12 9a3 3 0 110 6 3 3 0 010-6z" fill="currentColor"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-    const root = ReactDOM.createRoot(document.getElementById('root'));
-    root.render(<CoursesPage />);
-  </script>
+  <!-- <script src="script.js" defer></script> -->
+   <script>
+// Small utilities
+
+   </script>
 </body>
 </html>
